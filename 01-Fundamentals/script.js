@@ -42,3 +42,15 @@ const year = 2037
 const ageJonas = year - 1991;
 const ageSarah = year - 2018;
 console.log(ageJonas, ageSarah);
+
+// 2 ** means 2 to the power of 3
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3)
+
+const newFirstName = "Jonas";
+const newLastName = "schmed";
+console.log(newFirstName + " " + newLastName)
+
+let x = 10 + 5
+x += 10;
+x++;
+console.log(x)
