@@ -54,3 +54,11 @@ let x = 10 + 5
 x += 10;
 x++;
 console.log(x)
+
+// comparison operators
+
+console.log(ageJonas > ageSarah);
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+console.log(year - 1991 > year - 2018)
