@@ -69,3 +69,6 @@ let y, i;
 y = i = 25 - 10 - 5
 console.log(y, i);
 
+const averageAge = ageJonas + ageSarah / 2
+console.log(ageJonas, ageSarah, averageAge)
+
