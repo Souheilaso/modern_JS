@@ -62,3 +62,10 @@ console.log(ageSarah >= 18);
 
 const isFullAge = ageSarah >= 18;
 console.log(year - 1991 > year - 2018)
+
+// operator precedence
+
+let y, i;
+y = i = 25 - 10 - 5
+console.log(y, i);
+
