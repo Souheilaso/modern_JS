@@ -29,3 +29,10 @@ console.log("Type of 'population':", typeof population);
 console.log("Type of 'country':", typeof country);
 console.log("Type of 'language':", typeof language);
 
+// let, const
+let age = 19;
+age = 29;
+const yearBirth = 1900;
+
+// lecture assignment
+language = "Portuguese";
