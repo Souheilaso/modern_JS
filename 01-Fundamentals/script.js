@@ -1,41 +1,41 @@
-// let js = 'amazing';
-// console.log(40 + 8 - 10);
+let js = 'amazing';
+console.log(40 + 8 - 10);
 
-// console.log('Jonas');
-// console.log(23);
+console.log('Jonas');
+console.log(23);
 
-// let firstName = 'John';
-// console.log(firstName);
+let firstName = 'John';
+console.log(firstName);
 
-// // Declare variables and assign values
-// let country = "United States";
-// let continent = "North America";
-// let population = 331;
+// Declare variables and assign values
+let country = "United States";
+let continent = "North America";
+let population = 331;
 
-// // Log values to the console
-// console.log("Country:", country);
-// console.log("Continent:", continent);
-// console.log("Population:", population);
+// Log values to the console
+console.log("Country:", country);
+console.log("Continent:", continent);
+console.log("Population:", population);
 
 
-// // data types 
-// // Declare variables and set values
-// let isIsland = false;
-// let language;
+// data types 
+// Declare variables and set values
+let isIsland = false;
+let language;
 
-// // Log types to the console
-// console.log("Type of 'isIsland':", typeof isIsland);
-// console.log("Type of 'population':", typeof population);
-// console.log("Type of 'country':", typeof country);
-// console.log("Type of 'language':", typeof language);
+// Log types to the console
+console.log("Type of 'isIsland':", typeof isIsland);
+console.log("Type of 'population':", typeof population);
+console.log("Type of 'country':", typeof country);
+console.log("Type of 'language':", typeof language);
 
 // // let, const
-// let age = 19;
-// age = 29;
-// const yearBirth = 1900;
+let age = 19;
+age = 29;
+const yearBirth = 1900;
 
 // // lecture assignment
-// language = "Portuguese";
+language = "Portuguese";
 
 // Basic Operators
 const year = 2037
@@ -71,4 +71,18 @@ console.log(y, i);
 
 const averageAge = ageJonas + ageSarah / 2
 console.log(ageJonas, ageSarah, averageAge)
+
+//Challenge 1
+
+let markWeight = 78;
+let markHeight = 1.69;
+let johnWeight = 92;
+let johnHeight = 1.95;
+
+let markBMI = markWeight / (markHeight ** 2);
+let johnBMI = johnWeight / (johnHeight ** 2);
+
+let markHigherBMI = markBMI > johnBMI;
+
+console.log(markHigherBMI);
 
