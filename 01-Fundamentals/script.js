@@ -97,8 +97,35 @@
 // console.log(jonasNew);
 
 // taking decisions using if statements
-const age = 19;
-const isOldEnough = age >= 18;
-if (isOldEnough) {
-    console.log(`you are old enough to drive 🚘`)
-}
+// const age = 15;
+// const isOldEnough = age >= 18;
+// if (isOldEnough) {
+//     console.log(`you are old enough to drive 🚘`);
+// } else {
+//     console.log(`you are not old enough to drive 😵‍💫 `);
+// }
+
+// const birthYear = 1991;
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+
+// console.log(century);
+
+// Type conversion
+const inputYear = '1991';
+console.log(Number(inputYear));
+console.log(inputYear + 18);
+console.log(Number(inputYear) + 18);
+console.log(String(23));
+
+// Type coercion
+console.log("I am " + 23 + " years old")
+console.log('23' - '10 ' - 3);
+
+let n = 1 + '1'; // this turns to a string
+n = n - 1; // the minus operator converts strings to numbers
+console.log(n);
