@@ -132,14 +132,34 @@
 
 // Truthy and falsy values
 // Falsy are 0, '', undefined, Nan, or null
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean('Jonas'));
-console.log(Boolean({}));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Jonas'));
+// console.log(Boolean({}));
 
-const money = 0;
-if (money) {
-    console.log("Don't spend it all");
+// const money = 0;
+// if (money) {
+//     console.log("Don't spend it all");
+// } else {
+//     console.log("You should get a job!");
+// }
+
+// equality operators
+const age = 18;
+if (age === 18) {
+    console.log("you are an adult");
+}
+
+const favorite = Number(prompt("What is your favorite number?"));
+console.log(favorite);
+if (favorite == 23) {
+    console.log("23 is an amazing number");
+} else if (favorite === 7) {
+    console.log("Congrats u won")
 } else {
-    console.log("You should get a job!");
+    console.log("Number is not 23 nor 7")
+}
+
+if (favorite !== 23) {
+    console.log("Why not 23?");
 }
